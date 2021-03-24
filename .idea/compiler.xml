@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jt-manage" />
+        <module name="jt-cart" />
+        <module name="jt-sso" />
+        <module name="jt-web" />
+        <module name="jt-order" />
+        <module name="jt-common" />
+        <module name="com.order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jt-zhou" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.order" options="-parameters" />
+      <module name="jt-cart" options="-parameters" />
+      <module name="jt-common" options="-parameters" />
+      <module name="jt-manage" options="-parameters" />
+      <module name="jt-order" options="-parameters" />
+      <module name="jt-sso" options="-parameters" />
+      <module name="jt-web" options="-parameters" />
+      <module name="jt-zhou" options="-parameters" />
+    </option>
+  </component>
+</project>
